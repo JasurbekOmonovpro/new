@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+span, a, label {
+    display: inline-block;
+}
+.pic{
+    background-image: url(GILIK.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form{
+    width: 58%;
+    margin: auto;
+}
+.iput{
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    text-transform: capitalize;
+
+}
+.button1{
+    font-size:30px ;
+    padding: 20px 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(47, 79, 79, 0.873);
+    border: none;
+}
+.h1{
+    width: 40%;
+    font-size: 60px;
+    color:yellow;
+    text-transform: capitalize;
+}
+.alar{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+}
+.a1, .a3{
+    width:28%;
+}
+.a1{
+    text-align: right;
+}
+.h2, .h3, .h4{
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.a2{
+    width: 39%;
+    text-align: center;
+    border-left:2px solid silver ;
+    border-right: 2px solid silver;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.p{
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.icon{
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 50%;
+}
+.a2{
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+}
+.finish{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+.hr{
+    margin-bottom: 50px;
+}
+.chiziq{
+    width: 200px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: silver;
+    margin: auto;
+    margin-bottom: 10px;
+}
+@media(max-width:1570px){
+    .pic, .alar{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin: auto;
+    }
+    .alar{
+        width: 100%;
+    }
+}
+@media(max-width:1300px){
+    .a1, .a2, .a3{
+        width: 100%;
+        text-align: center;
+    }
+    .a1,.a2{
+        padding-bottom: 50px;
+    }
+   .a2{
+    margin-bottom: 50px;
+    border: none;
+   }
+   .h1, .form{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+   }
+}
+@media(max-width:500px){
+    .form, .button1, .iput{
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    .h1{
+        font-size: 30px;
+    }
+    .alar, .finish {
+        font-size: 20px;
+    }
+    .chiziq{
+        width: 100px;
+    }
+    .alar{
+        padding-top: 30px;
+    }
+    .a2{
+        padding-bottom: 0;
+        margin-bottom: 20px;
+    }
+    .icon{
+        margin-bottom: 0px;
+        font-size: 15px;
+        padding: 5px;
+    }
+    .pic{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+    }
+    .button1, .iput{
+        width: 100%;
+    }
+}
